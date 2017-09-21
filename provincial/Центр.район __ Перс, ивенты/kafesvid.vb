@@ -98,6 +98,7 @@ if $ARGS[0] = '2':
 				gs 'zz_funcs', 'cum', 'face'
 				swallow += 1
 				gs 'zz_render', '', 'images/img/kafesvid/16.jpg', func('kafesvid_strings', 'local_str14')
+				act 'Закончить': gt'kafesvid','3'
 			end
 			act 'Продолжить дрочить':
 				*clr & cla
